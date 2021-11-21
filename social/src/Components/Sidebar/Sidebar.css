@@ -1,0 +1,49 @@
+.sidebarcontainer{
+    flex: 3;
+    height: 100%;
+    background-color:yellowgreen;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    overflow-y:scroll;
+}
+ 
+
+.sidebarlist{
+    margin-left: 5px;
+    padding: 0;
+    color: white;
+}
+.sidebarlistitem{
+    margin-bottom: 10px;
+}
+.itemicon{
+    margin-right: 7px;
+}
+.showmore{
+    margin-left: 20px;
+    padding: 10px;
+    font: size 20%;
+    border-radius: 30%;
+    font-weight: 400;
+    border: none;
+    font-style:oblique;
+    cursor: pointer;
+}
+
+ 
+
+.personimg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.personname{
+    cursor: pointer;
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

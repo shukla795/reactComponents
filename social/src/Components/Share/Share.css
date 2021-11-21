@@ -1,0 +1,59 @@
+.sharecontainer{
+    width: 90%;
+    height: 140px;
+    margin-left: 15px;
+    padding: 20px;
+    box-shadow: -2px 5px 14px 3px rgba(0,0,0,0.29);
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.sharetopimg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sharetop{
+    display: flex;
+}
+.sharehr{
+    margin: 5px 0px;
+
+}
+.sharetopinput{
+    border: none;
+    border-radius: 50%;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    padding:10px
+}
+.sharetopinput:focus{
+    outline: none;
+}
+
+.sharebottom{
+    margin-top: 20px;
+    cursor: pointer;
+}
+ 
+.sharelist{
+    display: flex;
+    list-style-type:none;
+    justify-content: space-around;
+}
+.sharelisttext{
+    margin-left: 5px;
+}
+.sharebutton{
+    color: white;
+    background-color: green;
+    border-radius: 10%;
+    text-align: right;
+    position: relative;
+    left: 90%;
+    top: 15px;
+    cursor: pointer;
+}

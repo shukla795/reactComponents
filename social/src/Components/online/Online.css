@@ -1,0 +1,27 @@
+.onlinefriendlistimg{
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 40px;
+    border-radius: 50%;
+}
+.rightbaronlinefriend{
+    list-style: none;
+}
+.onlinepersonname{
+    margin-left: 50px;
+}
+/* .onlinemode{
+    width: 40%;
+    height: 8%;
+    border-radius: 40%;
+    background-color: limegreen;
+    border: 2px solid white;
+    position: relative;
+    top: 8px;
+    left: -6px;
+} */
+.onlinepersonname{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

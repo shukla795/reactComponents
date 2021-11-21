@@ -1,0 +1,19 @@
+.sidebarlist{
+    margin-left: 5px;
+    padding: 0;
+    color: white;
+}
+.personimg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: none;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.personname{
+    cursor: pointer;
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

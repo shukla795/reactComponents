@@ -1,0 +1,87 @@
+.topbarContainer{
+    display: flex;
+    background-color:goldenrod;
+    width: 100%;
+    height: 40px;
+    color: white;
+    position: sticky;
+    top: 0;  
+}
+ 
+.logo{
+    margin-left: 20px;
+    
+}
+ 
+.topbarleft{
+    flex:3;
+    text-align: left;
+    cursor: pointer;
+}
+.topbarcenter{
+    flex:5;
+    text-align: center;
+    background-color:white;
+    border-radius: 10%;
+    display: flex;
+}
+.logoSearch{
+    color:brown;
+    margin-top: 5px;
+}
+ .searchInput{
+     border-radius: 50px;
+     border:none;
+     width: 70%;
+ }
+
+.searchInput:focus{
+    outline: none;
+}
+     
+.topbarright{
+    flex:4;
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+}
+ .topbarrightIcon{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     cursor: pointer;
+     position: relative;
+     left: 25px;
+ }
+ 
+  .somedata{
+      margin-right: 5px;
+      cursor: pointer;
+  }
+
+  .iconValue{
+      color: red;
+      position: relative;
+      top: -10px;
+      left: -5px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      font-size: 15px;
+
+  }
+
+ .topbarrightIconItem{
+    justify-content: space-between;
+ }
+ 
+.topbarrightImage{
+    height: 20px;
+    width: 10%;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 1%;  
+    cursor: pointer;
+    /* object-fit: cover; */
+}
+ 
